@@ -1,4 +1,4 @@
-# tf-pose-estimation for ROS
+# Human-pose-estimation for ROS
 
 Human pose estimation is expected to use on mobile robots which need human interactions. 
 
