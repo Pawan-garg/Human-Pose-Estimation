@@ -38,14 +38,15 @@ $ export LLVM_CONFIG=/usr/bin/llvm-config-7
 Clone the repo and install 3rd-party libraries.
 
 ```bash
-$ git clone https://www.github.com/ildoonet/tf-pose-estimation
-$ cd tf-pose-estimation
+$ git clone https://www.github.com/Pawan-garg
+/Human-pose-estimation
+$ cd Pose-estimation
 $ pip3 install -r requirements.txt
 ```
 
-Build c++ library for post processing. See : https://github.com/ildoonet/tf-pose-estimation/tree/master/tf_pose/pafprocess
+Build c++ library for post processing. See : https://github.com/Pawan-garg/Human-pose-estimation/tree/master/Pose/pafprocess
 ```
-$ cd tf_pose/pafprocess
+$ cd Pose/pafprocess
 $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
 
@@ -54,7 +55,7 @@ $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 Alternatively, you can install this repo as a shared package using pip.
 
 ```bash
-$ git clone https://www.github.com/ildoonet/tf-pose-estimation
+$ git clone https://www.github.com/Pawan-garg/Human-pose-estimation
 $ cd tf-pose-estimation
 $ python setup.py install  # Or, `pip install -e .`
 ```
