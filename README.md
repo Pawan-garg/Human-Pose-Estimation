@@ -4,15 +4,8 @@
 
 **You can even run this on your macbook with a descent FPS!**
 
-Original Repo(Caffe) : https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
-| CMU's Original Model</br> on Macbook Pro 15" | Mobilenet-thin </br>on Macbook Pro 15" | Mobilenet-thin</br>on Jetson TX2 |
-|:---------|:--------------------|:----------------|
-| ![cmu-model](/etcs/openpose_macbook_cmu.gif)     | ![mb-model-macbook](/etcs/openpose_macbook_mobilenet3.gif) | ![mb-model-tx2](/etcs/openpose_tx2_mobilenet3.gif) |
-| **~0.6 FPS** | **~4.2 FPS** @ 368x368 | **~10 FPS** @ 368x368 |
-| 2.8GHz Quad-core i7 | 2.8GHz Quad-core i7 | Jetson TX2 Embedded Board | 
-
-Implemented features are listed here : [features](./etcs/feature.md)
+Implemented features are listed here : [features](./Edit_pose/feature.md)
 
 ## Important Updates
 
@@ -140,9 +133,9 @@ coco_style = tf_pose.infer(image_path)
 
 ## ROS Support
 
-See : [Edit_pose/ros.md](./Edit_pose/ros.md)
+See : [Edit_pose/ros.md](./Edit_pose/Ros.md)
 
 ## Training
 
-See : [Edit_pose/training.md](./Edit_pose/training.md)
+See : [Edit_pose/training.md](./Edit_pose/train.md)
 
