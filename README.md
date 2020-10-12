@@ -61,7 +61,7 @@ $ python setup.py install  # Or, `pip install -e .`
 
 ## Models & Performances
 
-See [experiments.md](./etc/experiments.md)
+See [experiments.md](./Edit_pose/Exp.md)
 
 ### Download Tensorflow Graph File(pb file)
 
@@ -96,7 +96,7 @@ The image flag MUST be relative to the src folder with no "~", i.e:
 
 Then you will see the screen as below with pafmap, heatmap, result and etc.
 
-![inferent_result](./etcs/inference_result2.png)
+![inferent_result](./Edit_pose/inference_result2.png)
 
 ### Realtime Webcam
 
@@ -133,9 +133,9 @@ coco_style = tf_pose.infer(image_path)
 
 ## ROS Support
 
-See : [Edit_pose/ros.md](./Edit_pose/Ros.md)
+See : [Edit_pose/Ros.md](./Edit_pose/Ros.md)
 
 ## Training
 
-See : [Edit_pose/training.md](./Edit_pose/train.md)
+See : [Edit_pose/train.md](./Edit_pose/train.md)
 
