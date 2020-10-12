@@ -10,7 +10,7 @@ Implemented features are listed here : [features](./Edit_pose/feature.md)
 ## Important Updates
 
 - 2019.3.12 Add new models using mobilenet-v2 architecture. See : [experiments.md](./Edit_pose/Exp.md)
-- 2018.5.21 Post-processing part is implemented in c++. It is required compiling the part. See: https://github.com/ildoonet/tf-pose-estimation/tree/master/src/pafprocess
+- 2018.5.21 Post-processing part is implemented in c++. It is required compiling the part. See: https://github.com/Pawan-garg/Human-pose-Estimation/tree/master/src/pafprocess
 - 2018.2.7 Arguments in run.py script changed. Support dynamic input size.
 
 ## Install
